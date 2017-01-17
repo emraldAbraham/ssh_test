@@ -1,0 +1,8 @@
+.divs{
+    min-width:50px;
+    min-height:30px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 7px;
+}
