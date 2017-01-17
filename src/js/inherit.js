@@ -82,7 +82,7 @@ var mammal=function(spec){
 	var myCat=cat({name:'Swatcat',saying:'Gonna save yall from monsters'});
 	//myCat.purr(10);
 
-	Object.prototype.superior = function(name){
+	/*Object.prototype.superior = function(name){
 		var that=this,method=that[name];
 		return method.apply(that,arguments);
 	};
@@ -94,7 +94,7 @@ var mammal=function(spec){
 			return 'like'+super_get_name+'baby';
 		};
 		return that;
-	}
+	}*/
 
 	var myCoolCat=coolcat({name:'BIX'});
 	var name=myCoolCat.get_name();
