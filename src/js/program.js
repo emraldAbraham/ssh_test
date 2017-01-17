@@ -42,11 +42,10 @@ document.writeln(stooge.middle_name);
 //objects are passed by reference, not copied
 
 var refer=stooge;
-<<<<<<< HEAD
+
 refer.email="ref@gmail.com";
-=======
 refer.email="ref@gmail.com"
->>>>>>> testBranch
+
 document.writeln(stooge.email);
 document.writeln(refer.first_name);
 
@@ -89,9 +88,6 @@ var props=['first_name','middle_name','last_name'];
 document.writeln("||");
 for(i=0;i<props.length;i++){
 	document.writeln(props[i]+ ':' + stooge[props[i]]);
-<<<<<<< HEAD
-}
+ }
 
-=======
-}
->>>>>>> testBranch
+
