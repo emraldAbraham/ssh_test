@@ -42,7 +42,11 @@ document.writeln(stooge.middle_name);
 //objects are passed by reference, not copied
 
 var refer=stooge;
+<<<<<<< HEAD
 refer.email="ref@gmail.com";
+=======
+refer.email="ref@gmail.com"
+>>>>>>> testBranch
 document.writeln(stooge.email);
 document.writeln(refer.first_name);
 
@@ -65,7 +69,11 @@ document.writeln(newStooge.first_name);
 document.writeln(newStooge.middle_name);
 
 /*********************************************
+<<<<<<< HEAD
         Enumeration and Deletion
+=======
+			 Enumeration
+>>>>>>> testBranch
  ********************************************/
 
 /*
@@ -81,5 +89,9 @@ var props=['first_name','middle_name','last_name'];
 document.writeln("||");
 for(i=0;i<props.length;i++){
 	document.writeln(props[i]+ ':' + stooge[props[i]]);
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> testBranch
